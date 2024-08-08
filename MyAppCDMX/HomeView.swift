@@ -39,22 +39,7 @@ struct HomeView: View {
                 Text("Test UI")
             }.tag(3)
         }
-            
-            
-//            Image("Profile")
-//              .resizable()
-//              .aspectRatio(contentMode: .fit)
-//              .frame(width: 200, height: 200)
-//              .clipShape(Circle())
-//              .overlay(Circle().stroke(Color.white, lineWidth: 4))
-//              .shadow(radius: 7)
-            
-//            Rectangle()
-//              .fill(selectedColor)
-//              .frame(width: 100, height: 100, alignment: .center)
-//
-//            ColorPickerView(selectedColor: $selectedColor)
-        
+
     }
 }
 

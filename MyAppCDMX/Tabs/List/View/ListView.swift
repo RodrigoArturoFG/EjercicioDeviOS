@@ -62,14 +62,14 @@ struct ListView_Previews: PreviewProvider {
     }
 }
 
-struct SpinnerView: View {
-    //default values
-    var tintColor: Color = .blue
-    var scaleSize: CGFloat = 2.0
-    
-    var body: some View {
-        ProgressView()
-            .progressViewStyle(CircularProgressViewStyle(tint: tintColor))
-            .scaleEffect(scaleSize, anchor: .center)
-    }
-}
+//struct SpinnerView: View {
+//    //default values
+//    var tintColor: Color = .blue
+//    var scaleSize: CGFloat = 2.0
+//    
+//    var body: some View {
+//        ProgressView()
+//            .progressViewStyle(CircularProgressViewStyle(tint: tintColor))
+//            .scaleEffect(scaleSize, anchor: .center)
+//    }
+//}
